@@ -1,0 +1,24 @@
+#div1{
+  background-color: red;
+}
+
+#div2{
+  background-color: blue;
+}
+
+.text{
+  color: white;
+}
+/* select div*/
+div{
+
+}
+
+/* select all elements */
+*{
+  font-size: 100px;
+}
+
+div p{
+  color: red;
+}
