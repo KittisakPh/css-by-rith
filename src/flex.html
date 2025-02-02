@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .cardContainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .newsThumbnail {
+      height: 100px;
+    }
+
+    .card {
+      border: 1px solid rgb(255, 0, 0);
+    }
+
+    #centerContainer {
+      height: 400px;
+      width: 600px;
+      border: 1px solid rgb(255, 0, 0);
+      display: flex;
+      justify-content: end;
+      align-items: start;
+    }
+    #centerElement{
+      border: 1px solid rgb(0,0,255);
+      height: 100px;
+      width: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <h2>Breaking news!</h2>
+    <section class="cardContainer">
+      <div class="card">
+        <h3>Breaking News 1!</h3>
+        <p>
+          Very important news! Must Read!
+        </p>
+      </div>
+      <div class="card">
+        <img class="newsThumbnail" src="https://learn.futureskill.co/images/fs-new-logo-light.png" alt="logo" />
+        <h3>Breaking News 2!</h3>
+        <p>
+          Very important news! Must Read! 2
+        </p>
+      </div>
+      <div class="card">
+        <h3>Breaking News 3!</h3>
+        <p>
+          Very important news! Must Read! 3
+        </p>
+      </div>
+    </section>
+  </section>
+
+  <div id="centerContainer">
+    <div id="centerElement"></div>
+  </div>
+
+</body>
+
+</html>
