@@ -34,6 +34,14 @@ div > label{
   padding: 20px 0;
 }
 
+input::placeholder{
+  text-align: center;
+}
+
+textarea::placeholder{
+  text-align: center;
+}
+
 button{
   width: 100%;
   height: 5em;
